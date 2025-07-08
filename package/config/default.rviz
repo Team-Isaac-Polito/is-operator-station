@@ -1,6 +1,6 @@
 Panels:
   - Class: rviz_common/Displays
-    Help Height: 115
+    Help Height: 0
     Name: Displays
     Property Tree Widget:
       Expanded:
@@ -11,9 +11,12 @@ Panels:
         - /LaserScan1
         - /LaserScan1/Topic1
         - /UsbCam11
+        - /UsbCam21
         - /Realsense1
+        - /UsbCam31
+        - /UsbCam31/Topic1
       Splitter Ratio: 0.6638176441192627
-    Tree Height: 287
+    Tree Height: 439
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties
@@ -33,12 +36,12 @@ Panels:
     SyncMode: 0
     SyncSource: ""
   - Class: rviz_common/Displays
-    Help Height: 85
+    Help Height: 138
     Name: Cameras
     Property Tree Widget:
       Expanded: ~
       Splitter Ratio: 0.5
-    Tree Height: 349
+    Tree Height: 270
 Visualization Manager:
   Class: ""
   Displays:
@@ -78,25 +81,7 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        arm_camera_holder:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        arm_camera_holder_intermediate:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        arm_mk1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        camera_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -110,17 +95,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        chassis3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         joint_p_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        joint_p_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -130,17 +105,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        joint_r_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         joint_y_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        joint_y_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -160,11 +125,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        left_back_wheel_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         left_front_wheel_1_link:
           Alpha: 1
           Show Axes: false
@@ -175,22 +135,28 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        left_front_wheel_3_link:
+        module_joint:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
+        pitch_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pitch_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pitch_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         right_back_wheel_1_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         right_back_wheel_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_back_wheel_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -205,11 +171,18 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        right_front_wheel_3_link:
+        roll_2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
+        roll_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        roll_6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
       Mass Properties:
         Inertia: false
         Mass: false
@@ -308,6 +281,20 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /realsense/realsense2_camera_node/color/image_raw/compressed
       Value: true
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: UsbCam3
+      Normalize Range: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /usb_cam_3/image_raw/compressed
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -374,10 +361,10 @@ Window Geometry:
     collapsed: false
   Displays:
     collapsed: false
-  Height: 1009
+  Height: 1376
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd00000004000000000000022e000001d9fc020000000dfb0000001200530065006c0065006300740069006f006e00000001b0000000730000006e00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000000a0049006d0061006700650200000225000001aa000002300000016cfb0000000a0049006d006100670065020000045a00000195000001e200000187fb0000000a0049006d00610067006500000000470000012e0000000000000000fb000000100044006900730070006c00610079007301000001b0000001d9000000f100fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d0061006700650200000460000000d1000001e800000133fb0000000e00430061006d0065007200610073000000026800000121000000f100ffffff0000000100000175000001d9fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a0056006900650077007301000001b0000001d9000000c200fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b20000000000000000000000020000073a00000162fc010000000afb00000012005200650061006c00730065006e007300650100000000000003730000008900fffffffb0000000e00550073006200430061006d0030010000037a000001430000008400fffffffb0000000e00550073006200430061006d003101000004c4000001300000008400fffffffb0000000e00550073006200430061006d003201000005fb0000013f0000008400fffffffb0000000a0049006d00610067006501000000000000034c0000000000000000fb0000000a0049006d00610067006501000003530000013c0000000000000000fb0000000a0049006d00610067006501000004960000015a0000000000000000fb0000000a0049006d00610067006501000005f7000001430000000000000000fb0000000a0049006d0061006700650200000229000000f5000002330000014ffb0000000a00560069006500770073030000004e00000080000002e100000197000000030000073a00000040fc0100000002fb0000000800540069006d006501000000000000073a0000038100fffffffb0000000800540069006d0065010000000000000450000000000000000000000389000001d900000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000045c00000225fc020000000dfb0000001200530065006c0065006300740069006f006e00000001b000000073000000b000fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000000a0049006d0061006700650200000225000001aa000002300000016cfb0000000a0049006d006100670065020000045a00000195000001e200000187fb0000000a0049006d00610067006500000000470000012e0000000000000000fb000000100044006900730070006c00610079007301000002a7000002250000018200fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d0061006700650200000460000000d1000001e800000133fb0000000e00430061006d00650072006100730000000268000001210000018200ffffff000000010000017500000225fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a0056006900650077007301000002a7000002250000013200fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b2000000000000000000000002000008d00000022dfc010000000bfb00000012005200650061006c00730065006e007300650100000000000001c2000000c500fffffffb0000000e00550073006200430061006d003001000001ce000001a4000000bd00fffffffb0000000e00550073006200430061006d0031010000037e000001c2000000bd00fffffffb0000000e00550073006200430061006d0032010000054c000001d1000000bd00fffffffb0000000e00550073006200430061006d00330100000729000001a7000000bd00fffffffb0000000a0049006d00610067006501000000000000034c0000000000000000fb0000000a0049006d00610067006501000003530000013c0000000000000000fb0000000a0049006d00610067006501000004960000015a0000000000000000fb0000000a0049006d00610067006501000005f7000001430000000000000000fb0000000a0049006d0061006700650200000229000000f5000002330000014ffb0000000a00560069006500770073030000004e00000080000002e10000019700000003000008d00000005afc0100000002fb0000000800540069006d00650100000000000008d00000058100fffffffb0000000800540069006d00650100000000000004500000000000000000000002e70000022500000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Realsense:
     collapsed: false
   Selection:
@@ -392,8 +379,10 @@ Window Geometry:
     collapsed: false
   UsbCam2:
     collapsed: false
+  UsbCam3:
+    collapsed: false
   Views:
     collapsed: false
-  Width: 1850
-  X: 70
-  Y: 34
+  Width: 2256
+  X: 0
+  Y: 54
