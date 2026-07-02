@@ -10,7 +10,7 @@ Panels:
         - /Back1/Topic1
         - /Realsense1/Topic1
       Splitter Ratio: 0.6638176441192627
-    Tree Height: 507
+    Tree Height: 216
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties
@@ -20,16 +20,14 @@ Panels:
     Name: Tool Properties
     Splitter Ratio: 0.5886790156364441
   - Class: rviz_common/Views
-    Expanded:
-      - /Current View1
-      - /ARM1
+    Expanded: ~
     Name: Views
     Splitter Ratio: 0.5
   - Class: rviz_common/Time
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: LaserScan
+    SyncSource: ""
   - Class: rviz_common/Displays
     Help Height: 138
     Name: Cameras
@@ -76,223 +74,6 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        arm_base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        arm_diff_pitch_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        arm_diff_roll_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        arm_pitch_forearm_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        arm_pitch_wrist_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        arm_roll_forearm_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        arm_roll_wrist_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        base_footprint:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        chassis1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        chassis2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        chassis3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        encoder2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        encoder3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        imu1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        imu2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        imu3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        joint_p_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        joint_p_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        joint_r_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        joint_r_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        joint_y_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        joint_y_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        laser_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        left_back_wheel_1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        left_back_wheel_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        left_back_wheel_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        left_front_wheel_1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        left_front_wheel_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        left_front_wheel_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_back_wheel_1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_back_wheel_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_back_wheel_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_front_wheel_1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_front_wheel_2_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_front_wheel_3_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        small_front_left_wheel_1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        small_front_right_wheel_1_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        tcp:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        tof_down45_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        tof_down_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        tof_front_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        tof_mount_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        tof_up45_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
       Mass Properties:
         Inertia: false
         Mass: false
@@ -540,7 +321,7 @@ Window Geometry:
   Height: 1378
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000002930000026bfc020000000efb0000000e00550073006200430061006d003200000002ca0000026b0000000000000000fb0000001200530065006c0065006300740069006f006e00000001b0000000730000006c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000000a0049006d0061006700650200000225000001aa000002300000016cfb0000000a0049006d006100670065020000045a00000195000001e200000187fb0000000a0049006d00610067006500000000470000012e0000000000000000fb000000100044006900730070006c00610079007301000002ca0000026b000000fc00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d0061006700650200000460000000d1000001e800000133fb0000000e00430061006d0065007200610073000000026800000121000000fc00ffffff00000001000002570000026bfc0200000004fb0000000e00550073006200430061006d003300000002ca0000026b0000000000000000fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a0056006900650077007302000004ee000003470000025700000299fb0000001200530065006c0065006300740069006f006e010000025a000000b2000000000000000000000002000008d00000029bfc0100000009fb00000012005200650061006c00730065006e007300650100000000000003a9000000c400fffffffb0000000a00460072006f006e007401000003b1000002890000008700fffffffb00000008004200610063006b01000006420000028e0000007e00fffffffb0000000a0049006d00610067006501000000000000034c0000000000000000fb0000000a0049006d00610067006501000003530000013c0000000000000000fb0000000a0049006d00610067006501000004960000015a0000000000000000fb0000000a0049006d00610067006501000005f7000001430000000000000000fb0000000a0049006d0061006700650200000229000000f5000002330000014ffb0000000a00560069006500770073030000004e00000080000002e10000019700000003000008d00000005afc0100000002fb0000000800540069006d00650000000000000008d00000058700fffffffb0000000800540069006d00650100000000000004500000000000000000000006350000026b00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730000000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000400000000000002930000026bfc020000000ffb0000000e00550073006200430061006d003200000002ca0000026b0000000000000000fb0000001200530065006c0065006300740069006f006e00000001b0000000730000006c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000000a0049006d0061006700650200000225000001aa000002300000016cfb0000000a0049006d006100670065020000045a00000195000001e200000187fb0000000a0049006d00610067006500000000470000012e0000000000000000fb0000000a0056006900650077007301000002ca0000011b000000f200fffffffb000000100044006900730070006c00610079007301000003ed00000148000000fc00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d0061006700650200000460000000d1000001e800000133fb0000000e00430061006d0065007200610073000000026800000121000000fc00ffffff00000001000002570000026bfc0200000003fb0000000e00550073006200430061006d003300000002ca0000026b0000000000000000fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b2000000000000000000000002000008d00000029bfc0100000009fb00000012005200650061006c00730065006e007300650100000000000003a9000000c400fffffffb0000000a00460072006f006e007401000003b1000002890000008700fffffffb00000008004200610063006b01000006420000028e0000007e00fffffffb0000000a0049006d00610067006501000000000000034c0000000000000000fb0000000a0049006d00610067006501000003530000013c0000000000000000fb0000000a0049006d00610067006501000004960000015a0000000000000000fb0000000a0049006d00610067006501000005f7000001430000000000000000fb0000000a0049006d0061006700650200000229000000f5000002330000014ffb0000000a00560069006500770073030000004e00000080000002e10000019700000003000008d00000005afc0100000002fb0000000800540069006d00650000000000000008d00000058700fffffffb0000000800540069006d00650100000000000004500000000000000000000006350000026b00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730000000000ffffffff0000000000000000
   Realsense:
     collapsed: false
   Selection:
